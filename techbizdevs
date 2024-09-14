@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated 1099 Form</title>
+</head>
+<body>
+    <h1>1099 Form</h1>
+    <p><strong>Company Name:</strong> ${{ companyName }</p>
+    <p><strong>Total Sales:</strong> ${{ salesData }}</p>
+    <p><strong>Commission Rate:</strong> {{ commissionRate }}%</p>
+    <p><strong>Commission Earned:</strong> ${{ commissionEarned }}</p>
+
+    <br><br>
+    <button onclick="window.print()">Print 1099 Form</button>
+
+</body>
+</html>
